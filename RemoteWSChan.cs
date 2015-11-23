@@ -3,6 +3,7 @@ using Org.Kevoree.Core.Api;
 using Org.Kevoree.Log.Api;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,8 +12,9 @@ using WebSocketSharp;
 namespace Org.Kevoree.Library
 {
 
-    [GroupType]
+    [ChannelType]
     [Serializable]
+    [Export(typeof(DeployUnit))]
     public class RemoteWSChan : MarshalByRefObject, DeployUnit, ChannelPort
     {
 

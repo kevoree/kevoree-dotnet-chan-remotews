@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Org.Kevoree.Chan.RemoteWSChan</id>
-    <version>1.0.0-rc1</version>
+    <version>1.0.0-rc3</version>
     <title>Kevoree RemoteWSChan</title>
     <authors>Manuel Leduc</authors>
     <owners>Kevoree</owners>
@@ -15,10 +15,8 @@
     <copyright>Copyright 2015</copyright>
     <tags>Kevoree RemoteWS Channel</tags>
     <dependencies>
-      <dependency id="IKVM" version="7.2.4630.5" />
-      <dependency id="Org.Kevoree.Core.Model" version="5.2.7" />
       <dependency id="org-kevoree-annotation" version="2.0.6" />
-      <dependency id="org-kevoree-api" version="1.4.0" />
+      <dependency id="org-kevoree-api" version="1.7.0" />
       <dependency id="WebSocketSharp" version="1.0.3-rc9" />
     </dependencies>
   </metadata>
